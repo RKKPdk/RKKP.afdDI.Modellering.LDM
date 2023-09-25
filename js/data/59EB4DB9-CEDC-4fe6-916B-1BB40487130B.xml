@@ -1,0 +1,12 @@
+tocTab[tocTab.length] = new Array("0.7:1", "", "Observation", "EARoot/EA7/EA76.htm", "175.png", "6", "0", "", "Logical diagram0","{78AC62C0-BF37-4b4c-973B-5F5941E87EDA}");
+tocTab[tocTab.length] = new Array("0.7:2", "", "Observation", "EARoot/EA7/EA79.htm", "5.png", "E84", "0", "", "Class0","{2B9610C4-5347-4cf2-9077-A06C9C27E198}");
+tocTab[tocTab.length] = new Array("0.7:3", "", "ObservationBegreb", "EARoot/EA7/EA80.htm", "5.png", "E85", "0", "", "Class0","{DC3DED33-4483-47be-8785-65B43C5740C7}");
+tocTab[tocTab.length] = new Array("0.7:4", "", "ObservationDatoTid", "EARoot/EA7/EA81.htm", "5.png", "E134", "0", "", "Class0","{E11C7F73-BE8B-4b88-9A71-1A3EE4AAA392}");
+tocTab[tocTab.length] = new Array("0.7:5", "", "ObservationKod", "EARoot/EA7/EA82.htm", "5.png", "E135", "0", "", "Class0","{D4F954CC-EB6C-4797-8D8C-DC9B272E5F0F}");
+tocTab[tocTab.length] = new Array("0.7:6", "", "ObservationNote", "EARoot/EA7/EA83.htm", "5.png", "E136", "0", "", "Class0","{AFA742A3-A289-49d8-86E4-9B99AC3892E3}");
+tocTab[tocTab.length] = new Array("0.7:7", "", "ObservationOpl", "EARoot/EA7/EA84.htm", "5.png", "E86", "0", "", "Class0","{F74D50BE-B8CA-44af-A310-DDBC8421B4D5}");
+tocTab[tocTab.length] = new Array("0.7:8", "", "ObservationOplBegreb", "EARoot/EA7/EA85.htm", "5.png", "E87", "0", "", "Class0","{35E2CD72-3866-4c81-9F98-51A93BB0510D}");
+tocTab[tocTab.length] = new Array("0.7:9", "", "ObservationOplKod", "EARoot/EA7/EA86.htm", "5.png", "E137", "0", "", "Class0","{CE24A70B-71D3-498d-8ACF-8B09ABC51D8C}");
+tocTab[tocTab.length] = new Array("0.7:10", "", "ObservationOplVaerdi", "EARoot/EA7/EA87.htm", "5.png", "E138", "0", "", "Class0","{1CEB2C72-DE82-4590-B708-ABBA7521F38C}");
+tocTab[tocTab.length] = new Array("0.7:11", "", "ObservationTypKod", "EARoot/EA7/EA88.htm", "5.png", "E139", "0", "", "Class0","{AD9C8F49-27A3-4d64-8EB0-4D8526607B17}");
+tocTab[tocTab.length] = new Array("0.7:12", "", "ObservationVaerdi", "EARoot/EA7/EA89.htm", "5.png", "E140", "0", "", "Class0","{B104C523-0EA5-4675-B993-5205C1738E04}");

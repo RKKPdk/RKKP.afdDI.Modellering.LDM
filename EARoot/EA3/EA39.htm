@@ -1,0 +1,470 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Diagnose::Diagnose</title>
+<link href="../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Diagnose::Diagnose </h1>
+			<!-- <img class="header_image" src="../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../EA1.htm">RKKP logisk datamodel version 2.0</a> / <a href="EA38.htm">Diagnose</a> / <a href="EA39.htm">Diagnose</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<a href="EA38.htm">Diagnose</a></ul>
+
+					</td>
+					<td class="contentcell"><div class="pageHeader"></div>
+<div class="PageBody">
+	<span class="ObjectTitle">Diagnose  : Public   Class</span>
+	<table border="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">20-02-2023 13:57:30</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">20-02-2023 14:10:57</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">thorsc</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">2.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">2.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" >Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{9D6AE97A-D5E6-435a-8DC7-5EE53CC716B2}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="EA36.htm">Diagnose</a>, <a href="../EA10/EA121.htm">Registrering</a></td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">Beskrivelse:&lt;br/&gt;Her angives diagnoser - eksempelvis aktionsdiagnoser, diagnoser for komorbiditet, recidiv og metastaser.&lt;br/&gt;&lt;br/&gt;En diagnose kan udtrykkes ved en klassifikation, f.eks. ICD10 eller ICPC. &lt;br/&gt;For nogle sygdomsområder omfatter ICD10 koden også anatomisk sted/sideangivelse.&lt;br/&gt;&lt;br/&gt;Mange kvalitetsdatabaser anvender ikke en national/international klassifikation for en diagnose, men angiver diagnoser som en tekststreng.&lt;br/&gt;Typen af diagnose kan f.eks. være aktionsdiagnose, bidiagnose, komorbiditet eller metastase.&lt;br/&gt;&lt;br/&gt;Det er muligt at angive med en svarkode (svarKod), at diagnosen ikke er forekommet. Anvendes typisk hvor klinikeren afkrydser ja/nej på en liste af diagnoser - eksempelvis komorbiditet oplysninger. Det anbefales dog kun at registrere de diagnoser, som er diagnosticeret og ikke diagnoser, som ikke har været diagnosticeret.&lt;br/&gt;Hvis attributten svarkode (svarKod) ikke er udfyldt, antages det at diagnosen er forekommet.&lt;br/&gt;&lt;br/&gt;Til en diagnose kan der knyttes oplysninger, som beskriver diagnosen yderligere. Der eksisterer globale typer for diagnoseoplysning - eksempelvis sideangivelse, anatomisk sted.&lt;br/&gt;&lt;br/&gt;Oplysning om, hvor i kroppen diagnosen er relateret til, angives i nogle tilfælde implicit i diagnosekoden (DC431B - Malignt melanom i øjenlåg) eller eksplicit i navnet, der identificerer diagnosen eksempelvis&#160;&#160;(&quot;Højre ankel&quot;).&lt;br/&gt;&lt;br/&gt;Eksempler:&lt;br/&gt;&lt;br/&gt;Database: Dansk Kolorektal Cancer Database (DCCG)&lt;br/&gt;Variabelnavn: KRC diagnose&lt;br/&gt;&lt;br/&gt;Logisk datamodel&lt;br/&gt;&lt;br/&gt;Entitet: Diagnose&lt;br/&gt;- navn = KrcDiagnose&lt;br/&gt;&lt;br/&gt;Entitet: DiagnoseKod&lt;br/&gt;- klassifTyp = national&lt;br/&gt;- klassif = ICD-10&lt;br/&gt;- klassifKod = DC182&lt;br/&gt;&lt;br/&gt;-----&lt;br/&gt;&lt;br/&gt;Database: DMD (Dansk Melanom Database)&lt;br/&gt;Variabelnavn: FO_5_3_4_1A (hals højre - diagnosen er melanom på højre hals dvs. anatomisk sted indgår i diagnosen)&lt;br/&gt;&lt;br/&gt;Logisk datamodel&lt;br/&gt;&lt;br/&gt;Entitet: Diagnose&lt;br/&gt;- navn = melanomHals&lt;br/&gt;&lt;br/&gt;Entitet: DiagnoseKod&lt;br/&gt;- klassifTyp = DBspecifik&lt;br/&gt;- klassif = melanomAnatomiskSted&lt;br/&gt;- klassifKod = FO_5_3_4_1A.....&lt;br/&gt;- svarKod = ja &lt;br/&gt;&lt;br/&gt;-----&lt;br/&gt;&lt;br/&gt;Database: Dansk Hjertesvigt database&lt;br/&gt;Variabelnavn: HJIDM1&lt;br/&gt;&lt;br/&gt;Logisk datamodel&lt;br/&gt;&lt;br/&gt;Entitet: Diagnose&lt;br/&gt;- navn = Type1DiabetesMellitus&lt;br/&gt;- diagnoseArt= aktionsDiagnose&lt;br/&gt;- diagnoseStatus = null&lt;br/&gt;- svarKod = ja&lt;br/&gt;&lt;br/&gt;Mapning til logisk datamodel:&lt;br/&gt;&lt;br/&gt;Variabelnavn: ddLeverKraefttypeForloeb, &lt;br/&gt;&lt;br/&gt;CC Logisk datamodel&lt;br/&gt; &lt;br/&gt;Entitet: Diagnose&lt;br/&gt;- navn = leverKraeftType (SAS variabel: ddLeverKraeftypeFoerloeb)&lt;br/&gt;- typ = aktionsDiagnose?&lt;br/&gt;- svarkod = &lt;br/&gt;- diagnoseStatus = afkraeftet? (SAS variabelddDiagnoseAfkraeftetCCMDT)&lt;br/&gt;&lt;br/&gt;Entitet: DiagnoseKod&lt;br/&gt;- klassifTyp = DBspecifik&lt;br/&gt;- klassif = diagnose&lt;br/&gt;- klassifKod = 1 (primær levercancer)&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;-----&lt;br/&gt;&lt;br/&gt;HCC Logisk datamodel&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;--&lt;br/&gt;&lt;br/&gt;KRLM&lt;br/&gt;&lt;br/&gt;------&lt;br/&gt;&lt;br/&gt;Non-KRLM&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;formaliseret vurderingsresultat af helbredstilstand&lt;br/&gt;datotid=&lt;br/&gt;</div>
+
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent != null ? parent.toggleItem('Attributes') : toggleItem('Attributes');" id="AttributesTitle">Attributes</li>
+			<li onClick="parent != null ? parent.toggleItem('AssociationsTo') : toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
+			<li onClick="parent != null ? parent.toggleItem('AssociationsFrom') : toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
+			<li onClick="parent != null ? parent.toggleItem('CustomProperties') : toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
+		</ul>
+<div class="ItemBody" id="AttributesTable">
+	<table border="0" cellspacing="0" cellpadding="0" class="Table">
+		<tr>
+			<td width="50%" class="TableHeading">Attribute</td>
+			<td width="25%" class="TableHeading">Scope</td>
+			<td width="25%" class="TableHeading">Type</td>
+		</tr>
+						<tr>
+				<td width="50%" class="TableRow">
+					diagnoseId
+				</td>
+				<td width="25%" class="TableRow">
+					Public 
+				</td>
+				<td width="25%" class="TableRow">
+					Id
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="3">										
+					
+						<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			entydig identifikation af Diagnose&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
+						
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow">
+					svarKod
+				</td>
+				<td width="25%" class="TableRow">
+					Public 
+				</td>
+				<td width="25%" class="TableRow">
+					svarKod
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="3">										
+					
+						<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			angiver om en Diagnose er forekommet&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
+						
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow">
+					navn
+				</td>
+				<td width="25%" class="TableRow">
+					Public 
+				</td>
+				<td width="25%" class="TableRow">
+					navn
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="3">										
+					
+						<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			ord, der beskriver betydningen af en forekomst af en Diagnose&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
+						
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow">
+					diagnoseStatus
+				</td>
+				<td width="25%" class="TableRow">
+					Public 
+				</td>
+				<td width="25%" class="TableRow">
+					status
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="3">										
+					
+						<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			hvor Diagnose befinder sig i sin livscyklus&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
+						
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow">
+					diagnoseArt
+				</td>
+				<td width="25%" class="TableRow">
+					Public 
+				</td>
+				<td width="25%" class="TableRow">
+					diagnoseArt
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="3">										
+					
+						<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			klassificeret angivelse af om en kontaktdiagnose er en aktionsdiagnose eller en bidiagnose&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
+						
+				</td>
+			</tr>
+	</table>
+</div>
+		<div class="ItemBody" id="AssociationsToTable">
+			<table class="Table ea_table">
+				<tr>
+					<td width="40%" class="TableHeading">Element</td>
+					<td width="30%" class="TableHeading">Source Role</td>
+					<td width="30%" class="TableHeading">Target Role</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA47.htm">DiagnoseOrgRel</a><br />
+						Class &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> relateres til<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageLink117" /></button>Details:
+							<div id="detailsDIVLink117" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA40.htm">DiagnoseDatoTid</a><br />
+						Class &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> har tidsangivelse <br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageLink118" /></button>Details:
+							<div id="detailsDIVLink118" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA41.htm">DiagnoseKod</a><br />
+						Class &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> klassificeres ved<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageLink119" /></button>Details:
+							<div id="detailsDIVLink119" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA42.htm">DiagnoseOpl</a><br />
+						Class &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> har<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageLink120" /></button>Details:
+							<div id="detailsDIVLink120" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">Beskrivelse:&lt;br/&gt;Diagnoseoplysninger kan ikke altiid entydigt relateres til en diagnose. Forekomst identifikationen vil knytte oplysningen til en bestemt registrering.&lt;br/&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="AssociationsFromTable">
+			<table class="Table ea_table">
+				<tr>
+					<td width="40%" class="TableHeading">Element</td>
+					<td width="30%" class="TableHeading">Source Role</td>
+					<td width="30%" class="TableHeading">Target Role</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA10/EA124.htm">RegistreringData</a><br />
+						Class &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> knyttet til<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageLink121" /></button>Details:
+							<div id="detailsDIVLink121" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="CustomPropertiesTable">
+			<table class="Table ea_table">
+				<tr>
+					<td width="30%" class="TableHeading">Property</td>
+					<td width="70%" class="TableHeading">Value</td>
+				</tr>
+			<tr>
+				<td width="30%" class="TableRow">isActive:</td>
+				<td width="70%" class="TableRow">0</td>
+			</tr>
+
+			<tr>
+				<td width="30%" class="TableRow">isFinalSpecialization:</td>
+				<td width="70%" class="TableRow">0</td>
+			</tr>
+
+
+			</table>
+		</div>	</div>
+ </div>
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

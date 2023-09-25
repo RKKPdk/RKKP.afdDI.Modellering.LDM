@@ -1,0 +1,11 @@
+tocTab[tocTab.length] = new Array("0.8:1", "", "Patient", "EARoot/EA8/EA90.htm", "175.png", "7", "0", "", "Logical diagram0","{17731256-0ACD-41cb-BE63-7710938E2B5B}");
+tocTab[tocTab.length] = new Array("0.8:2", "", "Patient", "EARoot/EA8/EA93.htm", "5.png", "E88", "0", "", "Class0","{D7D9D66D-B1DC-4308-999C-2692B5B819B9}");
+tocTab[tocTab.length] = new Array("0.8:3", "", "PatientBopael", "EARoot/EA8/EA94.htm", "5.png", "E142", "0", "", "Class0","{8CD29AB2-D554-4d94-B131-3DA6B9176278}");
+tocTab[tocTab.length] = new Array("0.8:4", "", "PatientDatoTid", "EARoot/EA8/EA95.htm", "5.png", "E143", "0", "", "Class0","{459A3A97-5EF7-450a-8B0A-D1A6FB313ED0}");
+tocTab[tocTab.length] = new Array("0.8:5", "", "PatientIdent", "EARoot/EA8/EA96.htm", "5.png", "E144", "0", "", "Class0","{0AED5FE1-5FAC-41c5-97A4-1BDC143A32C7}");
+tocTab[tocTab.length] = new Array("0.8:6", "", "PatientOpl", "EARoot/EA8/EA97.htm", "5.png", "E89", "0", "", "Class0","{217AE633-C62C-4d45-8DDC-0421D2D22F5E}");
+tocTab[tocTab.length] = new Array("0.8:7", "", "PatientOplBegreb", "EARoot/EA8/EA98.htm", "5.png", "E145", "0", "", "Class0","{733C58C9-8544-4a82-973E-151A3DF46A0B}");
+tocTab[tocTab.length] = new Array("0.8:8", "", "PatientOplDatoTid", "EARoot/EA8/EA99.htm", "5.png", "E146", "0", "", "Class0","{1F7F28B9-73E0-4017-8305-B4C26DA45A2D}");
+tocTab[tocTab.length] = new Array("0.8:9", "", "PatientOplKod", "EARoot/EA8/EA100.htm", "5.png", "E147", "0", "", "Class0","{6F7ED9AA-3D8F-4844-AFC1-CCC9056CB9B3}");
+tocTab[tocTab.length] = new Array("0.8:10", "", "PatientOplNote", "EARoot/EA8/EA101.htm", "5.png", "E148", "0", "", "Class0","{4CA60B64-1B37-4b95-9566-7CF1392BA611}");
+tocTab[tocTab.length] = new Array("0.8:11", "", "PatientOplVaerdi", "EARoot/EA8/EA102.htm", "5.png", "E149", "0", "", "Class0","{ACA6DECB-BC0F-4778-B6A1-543E945BB23E}");

@@ -1,0 +1,718 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Aktivitet::Aktivitet</title>
+<link href="../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Aktivitet::Aktivitet </h1>
+			<!-- <img class="header_image" src="../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../EA1.htm">RKKP logisk datamodel version 2.0</a> / <a href="EA14.htm">Aktivitet</a> / <a href="EA15.htm">Aktivitet</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<a href="EA14.htm">Aktivitet</a></ul>
+
+					</td>
+					<td class="contentcell"><div class="pageHeader"></div>
+<div class="PageBody">
+	<span class="ObjectTitle">Aktivitet  : Public   Class</span>
+	<table border="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">20-02-2023 13:57:30</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">20-02-2023 14:00:49</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">thorsc</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">2.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">2.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" >Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{465F9F31-9127-4d59-BE86-D6555856EB07}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="EA12.htm">Aktivitet</a>, <a href="../EA4/EA49.htm">Haendelse</a>, <a href="../EA6/EA65.htm">Komplikation</a>, <a href="../EA7/EA76.htm">Observation</a>, <a href="../EA10/EA121.htm">Registrering</a></td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">Beskrivelse:&lt;br/&gt;En aktivitet kan eksempelvis være en behandling, en undersøgelse, en klinisk konference, en patientundervisning.&lt;br/&gt;&lt;br/&gt;Status angiver hvor i sin livscyklus aktiviteten er - så som planlagt, udført, ikke-planlagt, ophørt, aflyst, aktiv m.m.&lt;br/&gt;&lt;br/&gt;En aktivitet er altid identificeret ved et navn. Derudover kan en aktivitet klassificeres ved koder (AktivitetKod) fra en eller flere klassifikationer f.eks. procedurekoder. Der kan kun anvendes én kode fra hver klassifikation. Klassifikationerne kan enten være nationale/internationale eller databasespecifikke.&lt;br/&gt;Der kan knyttes oplysninger til aktiviteten (AktivitetOpl eller AktivitetDatoTid).&lt;br/&gt;&lt;br/&gt;Aktiviteter angives somme tider som en &quot;afkrydsningsliste&quot;, hvor der for hver enkelt aktivitet på listen angives, om aktiviteten er forekommet eller ej. I disse tilfælde benyttes attributten svarkode (SvarKod). I nogle tilfælde består listen af aktiviteter kun af én forekomst.&lt;br/&gt;&lt;br/&gt;Eksempel: Liste fra Dansk Anæstesi Database, afkrydsningsliste&lt;br/&gt;&lt;br/&gt;Epidural Cervical	Udfaldsrum: Ja-nej&lt;br/&gt;Epidural Thorakal	Udfaldsrum: Ja-nej&lt;br/&gt;Epidural Lumbal	Udfaldsrum: Ja-nej&lt;br/&gt;Epidural Sakral	Udfaldsrum: Ja-nej&lt;br/&gt;Epidural+Spinal	Udfaldsrum: Ja-nej&lt;br/&gt;&lt;br/&gt;Her oprettes en aktivitet for hver af de fem forekomster på afkrydsningsliste. Aktiviteterne identificeres ved navn eksempelvis &quot;Epidural Cervical&quot;. &lt;br/&gt;&lt;br/&gt;Det er muligt at have oplysninger (AktivitetOpl) om en given aktivitet uden at den givne aktivitet er angivet. Dette skyldes at kvalitetsdatabaserne kun registrerer oplysninger, som er relevante i forhold til måling af kvalitet i det danske sundhedsvæsen. Hele patientforløbet registreres nødvendigvis ikke.&lt;br/&gt;&lt;br/&gt;Eksempler:&lt;br/&gt;&lt;br/&gt;Database: Dansk Kolorektal cancer (DCCG, KRC)&lt;br/&gt;Variabel: P_MDT_postop (MDT opfølgningskonference)&lt;br/&gt;&lt;br/&gt;Logisk datamodel&lt;br/&gt;Entitet: Aktivitet &lt;br/&gt;- navn = MDTpostoperation&lt;br/&gt;- svarKod = 1 (ja)&lt;br/&gt;-----&lt;br/&gt;Database: Akut Kirurgi Database (AKDB)&lt;br/&gt;Variabel: Operations_Kode (KJFK10)&lt;br/&gt;&lt;br/&gt;Logisk datamodel&lt;br/&gt;Der oprettes en aktivitet med relation til flere aktivitetskoder.&lt;br/&gt;&lt;br/&gt;Entitet: Aktivitet &lt;br/&gt;- navn = operation&lt;br/&gt;&lt;br/&gt;Entitet: AktivitetDatoTid &lt;br/&gt;- navn = foersteOperationDato&lt;br/&gt;- dato = 2020-01-11&lt;br/&gt;- tid = 08:35:00&lt;br/&gt;&lt;br/&gt;Entitet: AktivitetKod&lt;br/&gt;- klassifTyp = National&lt;br/&gt;- klassif = SKS&lt;br/&gt;- klassifKod = KJFK10&lt;br/&gt;&lt;br/&gt;Entitet: AktivitetBegreb&lt;br/&gt;- begreb = kirurgisk indgreb&lt;br/&gt;&lt;br/&gt;-----&lt;br/&gt;Database: Dansk Kolorektal cancer (DCCG, KRC)&lt;br/&gt;Variabel: res_lever (en blandt flere res_xxx variabler i SAS datasættet)&lt;br/&gt;&lt;br/&gt;Logisk datamodel&lt;br/&gt;Der oprettes en aktivitet for hver af de udførte supplerende resektioner.&lt;br/&gt;&lt;br/&gt;Entitet: Aktivitet &lt;br/&gt;- navn = resektion&lt;br/&gt;&lt;br/&gt;Entitet: AktivitetKod&lt;br/&gt;- klassifTyp = DBspecifik&lt;br/&gt;- klassif = supplResektion&lt;br/&gt;- klassifKod = 6 (resektion af lever)&lt;br/&gt;&lt;br/&gt;Entitet: AktivitetAktivitetRel&lt;br/&gt;- aktivitetId = &quot;nøglen på det definitive indgreb&quot;&lt;br/&gt;- aktivitetRelId = &quot;nøglen på resektion af lever&quot;&lt;br/&gt;- aktivitetAktivitetrelTyp = supplResektion&lt;br/&gt;&lt;br/&gt;-----&lt;br/&gt;Database: Dansk Gynækologisk Cancer Database&lt;br/&gt;Variabel: KVALME_MED_1 (kvalmebehandling dag 1)&lt;br/&gt;&lt;br/&gt;Entitet: Aktivitet&lt;br/&gt;- navn = kvalmeBehandlDag1&lt;br/&gt;&lt;br/&gt;Entitet: AktivitetKod&lt;br/&gt;- klassifTyp = DBspecifik&lt;br/&gt;- klassif = kvalmeBehandl&lt;br/&gt;- klassifKod = 3 (akupunktur)&lt;br/&gt;&lt;br/&gt;Variabel:KVALME_MED_2 (kvalmebehandling dag 2)&lt;br/&gt;&lt;br/&gt;Entitet: Aktivitet&lt;br/&gt;- navn = kvalmeBehandlDag2&lt;br/&gt;&lt;br/&gt;Entitet: AktivitetKod&lt;br/&gt;- klassifTyp = DBspecifik&lt;br/&gt;- klassif = kvalmeBehandl&lt;br/&gt;- klassifKod = 4 (ventrikelsonde)&lt;br/&gt;&lt;br/&gt;Hvis udfaldsrum for kvalmebehandling er lig med &quot;ingen&quot;, oprettes kun følgende forekomst:&lt;br/&gt;&lt;br/&gt;Entitet: Aktivitet&lt;br/&gt;- navn = kvalmeBehandlDag1&lt;br/&gt;- svarKod = 02 (nej)&lt;br/&gt;&lt;br/&gt;Database: Akut Kirurgi Database (AKDB)&lt;br/&gt;Variabel: Operations_Kode (indeholder flere procedurekoder: KJFK10, KJAH00, KJFB00)&lt;br/&gt;&lt;br/&gt;Logisk datamodel&lt;br/&gt;Der oprettes en aktivitet med realtion til flere aktivitetskoder.&lt;br/&gt;&lt;br/&gt;Entitet: Aktivitet &lt;br/&gt;- navn =&lt;br/&gt;- svarkod =&lt;br/&gt;&lt;br/&gt;Entitet: AktivitetDatoTid &lt;br/&gt;- navn = &lt;br/&gt;- dato = &lt;br/&gt;- tid = &lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Entitet: AktivitetKod&lt;br/&gt;- klassifTyp = &lt;br/&gt;- klassif =&lt;br/&gt;- klassifKod = &lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Entitet: AktivitetBegreb&lt;br/&gt;- begreb = &lt;br/&gt;&lt;br/&gt;-----&lt;br/&gt;handling hvor formålet er at belyse eller påvirke en patients helbredstilstand&lt;br/&gt;datotid=&lt;br/&gt;</div>
+
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent != null ? parent.toggleItem('Attributes') : toggleItem('Attributes');" id="AttributesTitle">Attributes</li>
+			<li onClick="parent != null ? parent.toggleItem('AssociationsTo') : toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
+			<li onClick="parent != null ? parent.toggleItem('AssociationsFrom') : toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
+			<li onClick="parent != null ? parent.toggleItem('CustomProperties') : toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
+		</ul>
+<div class="ItemBody" id="AttributesTable">
+	<table border="0" cellspacing="0" cellpadding="0" class="Table">
+		<tr>
+			<td width="50%" class="TableHeading">Attribute</td>
+			<td width="25%" class="TableHeading">Scope</td>
+			<td width="25%" class="TableHeading">Type</td>
+		</tr>
+						<tr>
+				<td width="50%" class="TableRow">
+					aktivitetId
+				</td>
+				<td width="25%" class="TableRow">
+					Public 
+				</td>
+				<td width="25%" class="TableRow">
+					Id
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="3">										
+					
+						<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			entydig identifikation af Aktivitet&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
+						
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow">
+					svarKod
+				</td>
+				<td width="25%" class="TableRow">
+					Public 
+				</td>
+				<td width="25%" class="TableRow">
+					int
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="3">										
+					
+						<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			angivelse af om Aktiviteten er forekommet&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
+						
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow">
+					navn
+				</td>
+				<td width="25%" class="TableRow">
+					Public 
+				</td>
+				<td width="25%" class="TableRow">
+					char[20]
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="3">										
+					
+						<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			ord, der beskriver betydningen af en forekomst af en Aktivitet&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
+						
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow">
+					aktivitetStatus
+				</td>
+				<td width="25%" class="TableRow">
+					Public 
+				</td>
+				<td width="25%" class="TableRow">
+					status
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="3">										
+					
+						<div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			angiver hvor Aktivitet befinder sig i sin livscyklus&lt;br/&gt;
+		</td>
+	</tr>
+</table></div>
+
+						
+				</td>
+			</tr>
+	</table>
+</div>
+		<div class="ItemBody" id="AssociationsToTable">
+			<table class="Table ea_table">
+				<tr>
+					<td width="40%" class="TableHeading">Element</td>
+					<td width="30%" class="TableHeading">Source Role</td>
+					<td width="30%" class="TableHeading">Target Role</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA16.htm">AktivitetAktivitetRel</a><br />
+						Class &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> er relateret til <br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageLink4" /></button>Details:
+							<div id="detailsDIVLink4" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA17.htm">AktivitetBegreb</a><br />
+						Class &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> knyttes til<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageLink5" /></button>Details:
+							<div id="detailsDIVLink5" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA20.htm">AktivitetMetode</a><br />
+						Class &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> anvender<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageLink6" /></button>Details:
+							<div id="detailsDIVLink6" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA19.htm">AktivitetKod</a><br />
+						Class &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> klassificeres ved<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageLink7" /></button>Details:
+							<div id="detailsDIVLink7" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA6/EA68.htm">Komplikation</a><br />
+						Class &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> har foraarsaget<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageLink8" /></button>Details:
+							<div id="detailsDIVLink8" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA18.htm">AktivitetDatoTid</a><br />
+						Class &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> har tidsangivelse<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageLink9" /></button>Details:
+							<div id="detailsDIVLink9" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA16.htm">AktivitetAktivitetRel</a><br />
+						Class &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> er primær for<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageLink10" /></button>Details:
+							<div id="detailsDIVLink10" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA28.htm">AktivitetOrg</a><br />
+						Class &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> knyttes til<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageLink11" /></button>Details:
+							<div id="detailsDIVLink11" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA23.htm">AktivitetOpl</a><br />
+						Class &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> har<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageLink12" /></button>Details:
+							<div id="detailsDIVLink12" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA22.htm">AktivitetNote</a><br />
+						Class &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> tilknyttes<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageLink13" /></button>Details:
+							<div id="detailsDIVLink13" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA30.htm">AktivitetVarighed</a><br />
+						Class &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> har tidsudstrækning<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageLink14" /></button>Details:
+							<div id="detailsDIVLink14" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA4/EA52.htm">Haendelse</a><br />
+						Class &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> foraarsager<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageLink15" /></button>Details:
+							<div id="detailsDIVLink15" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA7/EA79.htm">Observation</a><br />
+						Class &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> giver<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageLink16" /></button>Details:
+							<div id="detailsDIVLink16" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA6/EA70.htm">KomplikationDatoTid</a><br />
+						Class &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageLink17" /></button>Details:
+							<div id="detailsDIVLink17" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="AssociationsFromTable">
+			<table class="Table ea_table">
+				<tr>
+					<td width="40%" class="TableHeading">Element</td>
+					<td width="30%" class="TableHeading">Source Role</td>
+					<td width="30%" class="TableHeading">Target Role</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA4/EA52.htm">Haendelse</a><br />
+						Class &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> medfoerer<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageLink18" /></button>Details:
+							<div id="detailsDIVLink18" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA10/EA124.htm">RegistreringData</a><br />
+						Class &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> knyttet til<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageLink19" /></button>Details:
+							<div id="detailsDIVLink19" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="../EA9/EA114.htm">Patientkontakt</a><br />
+						Class &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> omfatter<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageLink20" /></button>Details:
+							<div id="detailsDIVLink20" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="CustomPropertiesTable">
+			<table class="Table ea_table">
+				<tr>
+					<td width="30%" class="TableHeading">Property</td>
+					<td width="70%" class="TableHeading">Value</td>
+				</tr>
+			<tr>
+				<td width="30%" class="TableRow">isActive:</td>
+				<td width="70%" class="TableRow">0</td>
+			</tr>
+
+			<tr>
+				<td width="30%" class="TableRow">isFinalSpecialization:</td>
+				<td width="70%" class="TableRow">0</td>
+			</tr>
+
+
+			</table>
+		</div>	</div>
+ </div>
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

@@ -1,0 +1,10 @@
+tocTab[tocTab.length] = new Array("0.1", "1", "Aktivitet", "EARoot/EA1/EA14.htm", "4.png", "", "", "{121ACE46-45F7-4c5d-B271-9014E221036A}", "Package");
+tocTab[tocTab.length] = new Array("0.2", "1", "Begreb", "EARoot/EA2/EA34.htm", "4.png", "", "", "{D2894FA9-EF8D-4a78-B3FB-945A9F2BE10B}", "Package");
+tocTab[tocTab.length] = new Array("0.3", "1", "Diagnose", "EARoot/EA3/EA38.htm", "4.png", "", "", "{D785F6CF-3EDA-4e74-92D3-EEE43ABDCA7C}", "Package");
+tocTab[tocTab.length] = new Array("0.4", "1", "Haendelse", "EARoot/EA4/EA51.htm", "4.png", "", "", "{8FDEBAF1-9A78-4043-9083-7410508B6931}", "Package");
+tocTab[tocTab.length] = new Array("0.5", "1", "Henvisning", "EARoot/EA5/EA57.htm", "4.png", "", "", "{4934F078-D358-4abc-8DC0-F17D78F29F5E}", "Package");
+tocTab[tocTab.length] = new Array("0.6", "1", "Komplikation", "EARoot/EA6/EA67.htm", "4.png", "", "", "{708763B3-CF1A-4a62-AB19-A6FA56F32A7D}", "Package");
+tocTab[tocTab.length] = new Array("0.7", "1", "Observation", "EARoot/EA7/EA78.htm", "4.png", "", "", "{59EB4DB9-CEDC-4fe6-916B-1BB40487130B}", "Package");
+tocTab[tocTab.length] = new Array("0.8", "1", "Patient", "EARoot/EA8/EA92.htm", "4.png", "", "", "{D1237C58-712A-40f7-AC75-840CF68E5545}", "Package");
+tocTab[tocTab.length] = new Array("0.9", "1", "Patientkontakt", "EARoot/EA9/EA105.htm", "4.png", "", "", "{E0FD3DEA-0021-4e20-9122-02109268B7C1}", "Package");
+tocTab[tocTab.length] = new Array("0.10", "1", "Registrering", "EARoot/EA10/EA123.htm", "4.png", "", "", "{B7BAAA43-4D36-42df-8E59-52847BE24C29}", "Package");

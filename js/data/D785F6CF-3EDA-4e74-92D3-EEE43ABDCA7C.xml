@@ -1,0 +1,11 @@
+tocTab[tocTab.length] = new Array("0.3:1", "", "Diagnose", "EARoot/EA3/EA36.htm", "175.png", "2", "0", "", "Logical diagram0","{0D361776-C317-41a9-B55A-56BCF239BD10}");
+tocTab[tocTab.length] = new Array("0.3:2", "", "Diagnose", "EARoot/EA3/EA39.htm", "5.png", "E74", "0", "", "Class0","{9D6AE97A-D5E6-435a-8DC7-5EE53CC716B2}");
+tocTab[tocTab.length] = new Array("0.3:3", "", "DiagnoseDatoTid", "EARoot/EA3/EA40.htm", "5.png", "E112", "0", "", "Class0","{3450D6EE-783F-446c-86AF-D094F5AB0E0C}");
+tocTab[tocTab.length] = new Array("0.3:4", "", "DiagnoseKod", "EARoot/EA3/EA41.htm", "5.png", "E113", "0", "", "Class0","{6B48C315-4512-411f-95A9-91FEC5A0513E}");
+tocTab[tocTab.length] = new Array("0.3:5", "", "DiagnoseOpl", "EARoot/EA3/EA42.htm", "5.png", "E75", "0", "", "Class0","{7D592A51-EB3E-4a5a-BDDE-38B471F28DD0}");
+tocTab[tocTab.length] = new Array("0.3:6", "", "DiagnoseOplBegreb", "EARoot/EA3/EA43.htm", "5.png", "E76", "0", "", "Class0","{85B5B804-529F-4374-B065-E453F73940D2}");
+tocTab[tocTab.length] = new Array("0.3:7", "", "DiagnoseOplKod", "EARoot/EA3/EA44.htm", "5.png", "E114", "0", "", "Class0","{6CDC318D-1C21-40e4-8EC7-3E7A58F9F2CF}");
+tocTab[tocTab.length] = new Array("0.3:8", "", "DiagnoseOplNote", "EARoot/EA3/EA45.htm", "5.png", "E115", "0", "", "Class0","{6BB2F277-8A08-452f-856B-4F022840B8DC}");
+tocTab[tocTab.length] = new Array("0.3:9", "", "DiagnoseOplVaerdi", "EARoot/EA3/EA46.htm", "5.png", "E116", "0", "", "Class0","{03F986F0-5AF2-4b70-A85D-01C1AB4F34C4}");
+tocTab[tocTab.length] = new Array("0.3:10", "", "DiagnoseOrgRel", "EARoot/EA3/EA47.htm", "5.png", "E117", "0", "", "Class0","{13DF4EDB-9B05-4826-8BF7-8E30FFC26125}");
+tocTab[tocTab.length] = new Array("0.3:11", "", "DiagnoseOrgRelKod", "EARoot/EA3/EA48.htm", "5.png", "E118", "0", "", "Class0","{2694AD35-D781-4133-B79E-EB22F61FE7AE}");

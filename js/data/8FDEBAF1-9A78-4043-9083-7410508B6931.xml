@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.4:1", "", "Haendelse", "EARoot/EA4/EA49.htm", "175.png", "3", "0", "", "Logical diagram0","{88004AC7-3364-48f8-86EB-67DD752C0210}");
+tocTab[tocTab.length] = new Array("0.4:2", "", "Haendelse", "EARoot/EA4/EA52.htm", "5.png", "E120", "0", "", "Class0","{CD43578F-36E6-471c-A1B3-A633FE7F4826}");
+tocTab[tocTab.length] = new Array("0.4:3", "", "HaendelseBegreb", "EARoot/EA4/EA53.htm", "5.png", "E77", "0", "", "Class0","{7CFFC574-58AF-4bf5-85AE-E3799FDF5833}");
+tocTab[tocTab.length] = new Array("0.4:4", "", "HaendelseKod", "EARoot/EA4/EA54.htm", "5.png", "E121", "0", "", "Class0","{C136069A-4566-4eb4-9CEC-89C9388D9023}");

@@ -1,0 +1,16 @@
+tocTab[tocTab.length] = new Array("0.9:1", "", "Patientkontakt", "EARoot/EA9/EA103.htm", "175.png", "8", "0", "", "Logical diagram0","{57CA2B3E-BEB6-4b30-9F81-FA27E3ED90E4}");
+tocTab[tocTab.length] = new Array("0.9:2", "", "Patientforloeb", "EARoot/EA9/EA106.htm", "5.png", "E90", "0", "", "Class0","{40DD9797-2FC9-4714-9E6F-FECB673EC87F}");
+tocTab[tocTab.length] = new Array("0.9:3", "", "PatientforloebDatoTid", "EARoot/EA9/EA107.htm", "5.png", "E151", "0", "", "Class0","{391EDADA-4ECD-4db8-8B95-51E218B219CA}");
+tocTab[tocTab.length] = new Array("0.9:4", "", "PatientforloebNote", "EARoot/EA9/EA108.htm", "5.png", "E152", "0", "", "Class0","{8983B7FC-6B00-4905-8CE9-1037D3D25FFB}");
+tocTab[tocTab.length] = new Array("0.9:5", "", "PatientforloebOpl", "EARoot/EA9/EA109.htm", "5.png", "E91", "0", "", "Class0","{2AB0BEB2-3800-40ef-9CAF-138C1C3A5225}");
+tocTab[tocTab.length] = new Array("0.9:6", "", "PatientforloebOplBegreb", "EARoot/EA9/EA110.htm", "5.png", "E92", "0", "", "Class0","{6AE14EB2-C624-40cb-B372-CBBA3FE13A8B}");
+tocTab[tocTab.length] = new Array("0.9:7", "", "PatientforloebOplKod", "EARoot/EA9/EA111.htm", "5.png", "E153", "0", "", "Class0","{C29D5D56-4816-4e17-A216-DFEC5D85C5A2}");
+tocTab[tocTab.length] = new Array("0.9:8", "", "PatientforloebOplVaerdi", "EARoot/EA9/EA112.htm", "5.png", "E154", "0", "", "Class0","{8EB32858-53FE-46c9-9A3C-2BCE239AE339}");
+tocTab[tocTab.length] = new Array("0.9:9", "", "PatientforloebOrgKod", "EARoot/EA9/EA113.htm", "5.png", "E155", "0", "", "Class0","{675515E7-3086-4a2e-A3FD-902CBB36A4F1}");
+tocTab[tocTab.length] = new Array("0.9:10", "", "Patientkontakt", "EARoot/EA9/EA114.htm", "5.png", "E93", "0", "", "Class0","{11482383-EE01-49fa-89AD-09DE5B3405AD}");
+tocTab[tocTab.length] = new Array("0.9:11", "", "PatientkontaktDatoTid", "EARoot/EA9/EA115.htm", "5.png", "E156", "0", "", "Class0","{B573C23A-307A-4c3d-A4EF-FA6CEBA444FC}");
+tocTab[tocTab.length] = new Array("0.9:12", "", "PatientkontaktNote", "EARoot/EA9/EA116.htm", "5.png", "E157", "0", "", "Class0","{5384F159-87D8-4556-AB2C-E683F6899F7A}");
+tocTab[tocTab.length] = new Array("0.9:13", "", "PatientkontaktOpl", "EARoot/EA9/EA117.htm", "5.png", "E94", "0", "", "Class0","{074789ED-04C0-4133-B798-BAB700D57D86}");
+tocTab[tocTab.length] = new Array("0.9:14", "", "PatientkontaktOplKod", "EARoot/EA9/EA118.htm", "5.png", "E158", "0", "", "Class0","{2512A1C4-3BE0-4235-8B73-32925702F96F}");
+tocTab[tocTab.length] = new Array("0.9:15", "", "PatientkontaktOplVaerdi", "EARoot/EA9/EA119.htm", "5.png", "E159", "0", "", "Class0","{B0889649-816C-4e9a-AFF5-FF2D0DA87E02}");
+tocTab[tocTab.length] = new Array("0.9:16", "", "PatientkontaktOrgKod", "EARoot/EA9/EA120.htm", "5.png", "E160", "0", "", "Class0","{468C8618-CB36-48cd-89CE-11C7A6F3F963}");

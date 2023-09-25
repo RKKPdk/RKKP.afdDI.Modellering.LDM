@@ -1,0 +1,8 @@
+tocTab[tocTab.length] = new Array("0.5:1", "", "Henvisning", "EARoot/EA5/EA55.htm", "175.png", "4", "0", "", "Logical diagram0","{3FE6DFF7-9BAA-486c-90B9-43A8AE5D9592}");
+tocTab[tocTab.length] = new Array("0.5:2", "", "Henvisning", "EARoot/EA5/EA58.htm", "5.png", "E78", "0", "", "Class0","{CEE5AEB0-213D-4e2f-A6DF-26388301AB0D}");
+tocTab[tocTab.length] = new Array("0.5:3", "", "HenvisningOpl", "EARoot/EA5/EA59.htm", "5.png", "E79", "0", "", "Class0","{E463809E-8C99-427c-99BD-67E2C9682312}");
+tocTab[tocTab.length] = new Array("0.5:4", "", "HenvisningOplKod", "EARoot/EA5/EA60.htm", "5.png", "E123", "0", "", "Class0","{B6F7FD45-A6B3-4b46-874A-661B4DD46922}");
+tocTab[tocTab.length] = new Array("0.5:5", "", "HenvisningOplVaerdi", "EARoot/EA5/EA61.htm", "5.png", "E124", "0", "", "Class0","{4AA3EAD6-37E8-4e8d-A826-2EEE5B48BB80}");
+tocTab[tocTab.length] = new Array("0.5:6", "", "HenvisningOrgKod", "EARoot/EA5/EA62.htm", "5.png", "E125", "0", "", "Class0","{314765E0-7D94-4e77-A807-FD62470FA3EE}");
+tocTab[tocTab.length] = new Array("0.5:7", "", "HenvisningOrgNavn", "EARoot/EA5/EA63.htm", "5.png", "E126", "0", "", "Class0","{0107CE4F-1344-44ed-BC45-343A1DE7368E}");
+tocTab[tocTab.length] = new Array("0.5:8", "", "HenvisningsDatoTid", "EARoot/EA5/EA64.htm", "5.png", "E127", "0", "", "Class0","{4B89BE8F-09E3-4fc9-AFDF-2FC4CE4A8562}");
